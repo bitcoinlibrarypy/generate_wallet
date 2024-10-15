@@ -17,18 +17,11 @@ This Python project generates a Bitcoin wallet using the BIP84 standard and outp
 - Python 3.x
 - `pip` (Python package installer)
 
-### Install dependencies
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/bitcoinlibrarypy.git
-   cd bitcoinlibrarypy
-   ```
-
-2. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+### Dependencies
+Install required dependencies:
+```bash
+pip install mnemonic bip32utils hashlib bech32
+```
 
 ## Usage
 
